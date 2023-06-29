@@ -20,6 +20,10 @@ switch(Math.floor(Math.random() * 6)) {
 		msg.innerHTML = "Funniest thing ever seen on planet earth";
 		window.location.href = "https://www.youtube.com/watch?v=12rT3uotaqk"; 
 		break;
+	case 5:
+		msg.innerHTML = "Marioed!";
+		window.location.href = "https://www.youtube.com/shorts/zWcQ2PtEEfk";
+		break;
 	default:
 		msg.innerHTML = "Trolled!"
 		window.location.href = "https://youtu.be/gkTb9GP9lVI?t=4";

@@ -1,5 +1,5 @@
 const msg = document.getElementById("msg");
-switch(Math.floor(Math.random() * 6)) {
+switch(Math.floor(Math.random() * 7)) {
 	case 0:
 		msg.innerHTML = "Rickrolled!";
 		window.location.href = "https://www.youtube.com/watch?v=f9qgAOi9Q9E"; 
@@ -9,7 +9,7 @@ switch(Math.floor(Math.random() * 6)) {
 		window.location.href = "https://youtu.be/cGw-8FrRT1E"; 
 		break;
 	case 2:
-        msg.innerHTML = "IndiHomed!";
+        	msg.innerHTML = "IndiHomed!";
 		window.location.href = "https://youtu.be/_IneeB-UDFA?t=60"; 
 		break;
 	case 3:
@@ -23,6 +23,10 @@ switch(Math.floor(Math.random() * 6)) {
 	case 5:
 		msg.innerHTML = "Marioed!";
 		window.location.href = "https://www.youtube.com/shorts/zWcQ2PtEEfk";
+		break;
+	case 6:
+		msg.innerHTML = "LMFAO";
+		window.location.href = "https://youtu.be/BWeF4kP3DzM?t=17";
 		break;
 	default:
 		msg.innerHTML = "Trolled!"

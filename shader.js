@@ -28,6 +28,10 @@ switch(Math.floor(Math.random() * 7)) {
 		msg.innerHTML = "LMFAO";
 		window.location.href = "https://youtu.be/BWeF4kP3DzM?t=17";
 		break;
+	case 7:
+		msg.innerHTML = "oh heeeeeeeelll no";
+		window.location.href = "https://youtu.be/LTvpkZ0U0rM?t=42";
+		break;
 	default:
 		msg.innerHTML = "Trolled!"
 		window.location.href = "https://youtu.be/gkTb9GP9lVI?t=4";
